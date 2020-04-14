@@ -35,6 +35,10 @@ git clone <GitHubRepoLink> <Zielordner>: GitHub Repo in Zielodner klonen
 git push: lokales Repo in GitHub laden
 git pull: GitHub Repo in lokales Repo laden
 
+Config:
+git remote add <name> <url>
+git config --global user.email "you@example.com"
+
 Other:
 git diff <datei>: alle Änderungen der Datei auflisten 
 git status: alle geänderten Dateien anzeigen
